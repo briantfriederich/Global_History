@@ -18,22 +18,20 @@ Luckily, nothing is restricting modern historians and academics from creating ne
 * SciKit-Learn
 
 ### Description of each file in repository
-For this analysis, I'm using the relatively small Axial Age dataset by Seshat, "a large, international, multidisciplinary team of evolutionary scientists, historians, anthropologists, archaeologists, economists, and other social scientists." The publically available dataset tracks a variety of sociopolitical norms and their development across key areas in Afro-Eurasia to assess, and in their findings cast doubt upon, the theory that these cultural conditions let to the religious and philosophical renaissance known as the "axial age." The specific scores for each sociopolitical norm for each date (varying time spans between 5300 BCE and 1800 CE in 100 year increments) within 10 NGAs (natural geographic area) were agreed-upon by a group of experts and compiled into the dataset.
+* *README.md* README file informing users of the project summary, dependencies, files in the repository, a summary of results, and acknowledgements.
+* *empires_and_eda.ipynb* Jupyter notebook with the code for my analysis.
+* *data/axial_age.csv* CSV dataset of the presence or absence 12 sociopolitical atributes over 10 geographic areas for each 100 years, ranging from the years 5300 BCE to 1800 CE.
 
 *This research employed data from the Seshat Databank (seshatdatabank.info) under Creative Commons Attribution Non-Commercial (CC By-NC SA) licensing.*
 [Turchin P. et al. 2015. “Seshat: The Global History Databank.” Cliodynamics 6(1): 77–107](https://doi.org/10.21237/C7clio6127917)
 [Mullins, D., Hoyer, D. et al. 2018. “A Systematic Assessment of ‘Axial Age’ Proposals Using Global Comparative Historical Evidence.” American Sociological Review 83(3): 596–626](https://doi.org/10.1177/0003122418772567)
 
 ### Summary of Analysis Results
+In this notebook I answer the three following questions throught the corresponding methods outlined below:
+* What sociopolitical norms did different societies from across the Mediterranean and Asia develop over time in comparison with each other? *Comparative barplots*
+* Which of these norms were most and least likely to be observed in the same place and time? *Correlation matrix*
+* What are some of the distinct trajectories of related norms along which some groupings of societies but not others evolved? *Principal Component Analysis*
 
-**What sociopolitical norms did different societies from across the Mediterranean and Asia develop over time in comparison with each other?**
-With the exception of Cambodia and the Kachi Plain repectively, moralistic punishment and the belief in omniscient supernatural beings was a strong feature throught the Classical world but not in Southern and Eastern Asian societies. Moralizing norms, promotion of prosociality, the belief that rulers were not gods, a formal legal code, general applicability of law, constraints on the executive, and full time bureaucrats were features common to all NGAs except Kansai. Galilee, the Kachi Plain, the Konya Plain, Susiana, Upper Egypt, and to a lesser extent Crete scored markedly higher on equating rulers and commoners with elites. Constraints on the executive and impeachment appear to be noticeably Roman traits. This is flipped in terms of full-time bureaucrats.
-
-**Which of these norms were most and least likely to be observed in the same place and time?**
-A formal legal code, promotion of prosociality, and a general applicability of law were most likely to be observed together, with a strong positive relationship in the data. Impeachment was the least likely feature to co-occur with equating elites and commoners and equating rulers and commoners, each with a mild negative relationship. Impeachment also correlated negatively, though much more weakly, with the presence of full-time bureaucrats.
-
-**What are some of the distinct trajectories of related norms along which some groupings of societies but not others evolved?**
-Dimension 2, explaining 14% of total variance, was characterized by mild lack of belief in omniscient being and a strong belief that rulers are not gods and can be institutionally constrained. Social stratification is high and bureaucracy is weak, though there is a strong legal framework. This dimension would probably sound familair to many classicists as Classical Ancient Greek Political philosophy. Dimension 3, explaining 10% of variance is characterized by strong moralizing norms and prosociality. Belief in both an omniscient god and divine rulers is low, though rulers are much more respected than commoners, relatively unconstrained, and unimpeachable. There is a very strong bureaucracy and a highly sophisticated legal framework. This dimension also sounds very familair to asianists as Confucian political philosophy. These two philosophies' designation as separate dimensions shows that they're not mutually exclusive, with different societies poentially displaying mixes of one, both or neither dimensions' characteristics.
 
 ### Acknowledgements
 Special thanks to [Seshat](http://seshatdatabank.info) for making several datasets from their global history databsnk publically available, and specila thanks to [Udacity](https://www.udacity.com), whose rubric inspired this project and without whom my PCA would have taken much longer.
