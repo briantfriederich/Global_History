@@ -2,7 +2,7 @@
 ## For Udacity Project 1
 
 ### Introduction and Motivation for the Project
-Data created in historical periods is extremely limited, but data scientists can create new data *about* the past in order to draw new insights though data analysis and machine learning. In this project, I use a dataset compiled by a group of historical experts about societal normas across time in different areas to answer three questions, outlined below under *Summary of Analysis Results.* Final analysis can be found in the associated [blog post](https://medium.com/@briantfriederich/empires-and-eda-4cbefc91a96a)
+Data created in historical periods is extremely limited, but data scientists can create new data *about* the past in order to draw new insights though data analysis and machine learning. In this project, I use a dataset compiled by a group of historical experts about societal normas across time in different areas to answer three questions, outlined below under *Summary of Analysis Results.* Final analysis can be found in the associated [blog post](https://medium.com/@briantfriederich/empires-and-eda-4cbefc91a96a).
 
 ### Libraries
 * Numpy
