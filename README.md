@@ -2,13 +2,7 @@
 ## For Udacity Project 1
 
 ### Introduction and Motivation for the Project
-`"90 of the data ever created was created in the last two years."`
-This Petter Bae Brandtzæg quote, as frightening as it is, betrays an even more frightening observation: We have ten times less data recorded in the past 2.8 million years of human history than we do about the years 2016-2018. and given this estimated exponential growth rate of data since the dawn of the computer age, we have 10^15 less data recorded from the dawn of history to the fall of the Berlin Wall than we do for the past 30 years. If we look to before the invention of modern statistics in the mid-1600's, the ammount of data we can analyze is miniscule. If we look to before the Domesday book in 1086, it gets downright depressing.
-
-Luckily, nothing is restricting modern historians and academics from creating new data about the past. From digitized photos and text, documentation about archaeological digs, and even crowdsourced aggregations of academic consensus about historical periods, historians (and hobbyists like me) can create and explore datasets, using cutting-edge analytic tools to draw new understandings about the past, and helping answer questions like:
-* What sociopolitical norms did different societies from across the Mediterranean and Asia develop over time in comparison with each other?
-* Which of these norms were most and least likely to be observed in the same place and time?
-* What are some of the distinct trajectories of related norms along which some groupings of societies but not others evolved?
+Data created in historical periods is extremely limited, but data scientists can create new data *about* the past in order to draw new insights though data analysis and machine learning. In this project, I use a dataset compiled by a group of historical experts about societal normas across time in different areas to answer three questions, outlined below under *Summary of Analysis Results.*
 
 ### Libraries
 * Numpy
